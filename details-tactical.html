@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Portfolio Details - Personal Bootstrap Template</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: MyResume - v4.7.0
+  * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <main id="main">
+
+    <!-- ======= Portfolio Details Section ======= -->
+    <section id="portfolio-details" class="portfolio-details">
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-8">
+            <div class="portfolio-details-slider swiper">
+              <div class="swiper-wrapper align-items-center">
+
+                <div class="swiper-slide">
+                  <img src="pictures/tactical/formations.png" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="pictures/tactical/predictions.png" alt="">
+                </div>
+
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="portfolio-info">
+              <h3>Tactical Spectale: Forming a Soccer Formation</h3>
+              <ul>
+                <li><strong>Category</strong>: Data Science</li>
+                <li><strong>Purpose</strong>: Computational Statistics Final Project</li>
+                <li><strong>Project date</strong>: Dec 2021</li>
+                <li><strong>Write Up</strong>: <a href="https://github.com/ST47S-CompStats-Fall2021/GroupL-fired/blob/main/Write-Up.pdf">Document</a></li>
+                <li><strong>GitHub</strong>: <a href="https://github.com/ST47S-CompStats-Fall2021/GroupL-fired">GitHub</a></li>
+                <li><strong>Shiny App</strong>: <a href="https://iankrupkinshiny.shinyapps.io/shinyapp/">App</a></li>
+              </ul>
+            </div>
+            <div class="portfolio-description">
+              <h2>Formation, Shmormation</h2>
+              <p> An exploration of team formation and aggregated statistical tendencies of a team. Can we predict the formation of a team 
+                given their historical playing season statistics? This aimed not to hint at any causal relationship, but rather existed in the 
+                name of exploratory computational statistics.
+              </p>
+              <p>
+                To get our data, we used a soccer database API. We used a variety of models from tidymodels. First we used A CART to understand feature importance in the dataset. Then we trained our model with a 
+                tuned Random Forest. It had around 80% accuracy, which was great, but one issue we ran into was the over-prevalence of the 4-4-2 formation 
+                in the dataset, leading to a skewed model to over-predicted towards 4-4-2. 
+              </p>
+              <p>
+                Using this model, we created an interactive Shiny App in R that asks users to rank team attributes by importance. Based on those 
+                rankings, our model can predict which formation would support a team that should statistically perform such that team metrics are optimized 
+                by the user's ranking of importance.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Details Section -->
+
+  </main><!-- End #main -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
