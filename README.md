@@ -1,2 +1,2 @@
 # hfmandell.github.io
-An introduction to Hannah Mandell.
+My personal website: An introduction to Hannah Mandell.
